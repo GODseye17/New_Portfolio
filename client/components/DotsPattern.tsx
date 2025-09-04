@@ -4,13 +4,21 @@ interface DotsPatternProps {
   className?: string;
 }
 
-export default function DotsPattern({ rows = 5, cols = 5, className = "" }: DotsPatternProps) {
-  const dotSpacing = rows === 5 ? (cols === 5 ? 20 : cols === 4 ? 25 : 16.75) : 25;
+export default function DotsPattern({
+  rows = 5,
+  cols = 5,
+  className = "",
+}: DotsPatternProps) {
+  const dotSpacing =
+    rows === 5 ? (cols === 5 ? 20 : cols === 4 ? 25 : 16.75) : 25;
   const width = (cols - 1) * dotSpacing + 4;
   const height = (rows - 1) * (rows === 5 ? 20 : 16) + 4;
 
   return (
-    <div className={`flex flex-col justify-between ${className}`} style={{ width, height, gap: rows === 5 ? 16 : 12 }}>
+    <div
+      className={`flex flex-col justify-between ${className}`}
+      style={{ width, height, gap: rows === 5 ? 16 : 12 }}
+    >
       {Array.from({ length: rows }).map((_, rowIndex) => (
         <svg
           key={rowIndex}

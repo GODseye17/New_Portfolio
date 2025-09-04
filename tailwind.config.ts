@@ -15,10 +15,10 @@ export default {
     extend: {
       colors: {
         // Design system colors from Figma
-        'dev-bg': '#282C33',
-        'dev-gray': '#ABB2BF',
-        'dev-white': '#FFF',
-        'dev-primary': '#C778DD',
+        "dev-bg": "#282C33",
+        "dev-gray": "#ABB2BF",
+        "dev-white": "#FFF",
+        "dev-primary": "#C778DD",
 
         // Keep original shadcn colors for components
         border: "hsl(var(--border))",
@@ -66,7 +66,7 @@ export default {
         },
       },
       fontFamily: {
-        'fira-code': ['Fira Code', 'monospace'],
+        "fira-code": ["Fira Code", "monospace"],
       },
       borderRadius: {
         lg: "var(--radius)",
