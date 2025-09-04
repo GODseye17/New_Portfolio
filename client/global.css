@@ -105,6 +105,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-dev-bg text-dev-white font-fira-code;
   }
 }
