@@ -14,6 +14,13 @@ export default {
     },
     extend: {
       colors: {
+        // Design system colors from Figma
+        'dev-bg': '#282C33',
+        'dev-gray': '#ABB2BF',
+        'dev-white': '#FFF',
+        'dev-primary': '#C778DD',
+
+        // Keep original shadcn colors for components
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
