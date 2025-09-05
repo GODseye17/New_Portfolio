@@ -107,4 +107,8 @@
   body {
     @apply bg-dev-bg text-dev-white font-fira-code;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }

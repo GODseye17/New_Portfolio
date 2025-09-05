@@ -18,11 +18,11 @@ export default function ProjectCard({
   codeLink,
 }: ProjectCardProps) {
   return (
-    <div className="flex flex-col border border-dev-gray max-w-[331px]">
+    <div className="flex flex-col border border-dev-gray w-full">
       <img
         src={image}
         alt={title}
-        className="w-full h-[201px] object-cover border-b border-dev-gray"
+        className="w-full h-40 md:h-[201px] object-cover border-b border-dev-gray"
       />
 
       <div className="flex flex-wrap gap-2 p-2">
@@ -44,8 +44,16 @@ export default function ProjectCard({
           {description}
         </p>
         <div className="flex gap-4">
-          {liveLink && <DevButton variant="primary">Live &lt;~&gt;</DevButton>}
-          {codeLink && <DevButton variant="secondary">Cached &gt;=</DevButton>}
+          {liveLink && (
+            <a href={liveLink} target="_blank" rel="noreferrer">
+              <DevButton variant="primary">Live &lt;~&gt;</DevButton>
+            </a>
+          )}
+          {codeLink && (
+            <a href={codeLink} target="_blank" rel="noreferrer">
+              <DevButton variant="secondary">Cached &gt;=</DevButton>
+            </a>
+          )}
         </div>
       </div>
     </div>
