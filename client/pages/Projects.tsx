@@ -60,7 +60,7 @@ export default function Projects() {
               "Gemini API",
             ]}
             image="/images/AiQnA.png"
-            liveLink="https://qna-ai-8wok.vercel.app/"
+            liveLink="https://qna-ai-xi.vercel.app/"
             codeLink="https://github.com/GODseye17/qna_AI.git"
           />
           <ProjectCard
@@ -68,7 +68,7 @@ export default function Projects() {
             description="Stock Portfolio Tracker"
             technologies={["Next.js","Websockets","TailwindCSS","Typescript","Google Finance API"]}
             image="/images/Stock.png"
-            liveLink="https://stock-portfolio-opal-ten.vercel.app/"
+            liveLink="https://stock-portfolio-red.vercel.app/"
             codeLink="https://github.com/GODseye17/Stock_Portfolio.git"
           />
           <ProjectCard
@@ -76,7 +76,7 @@ export default function Projects() {
             description="Patient Tracking Dashboard"
             technologies={["React.js", "TailwindCSS", "JS","Pglite"]}
             image="/images/patient.png"
-            liveLink="https://medblocks-patient-app.vercel.app/"
+            liveLink="https://medblocks-patient-app-eight.vercel.app/"
             codeLink="https://github.com/GODseye17/medblocks-patient-app.git"
           />
           <ProjectCard
@@ -97,7 +97,7 @@ export default function Projects() {
             description="Minimal infinite-scrolling calendar UI"
             technologies={["TypeScript", "Vite", "TailwindCSS"]}
             image="/images/calendar.png"
-            liveLink="https://infinite-calendar-orpin.vercel.app/"
+            liveLink="https://infinite-calendar-sooty.vercel.app/"
             codeLink="https://github.com/GODseye17/Infinite_Calendar.git"
           />
           <ProjectCard
@@ -113,7 +113,7 @@ export default function Projects() {
             description="Landing page for an e-commerce app"
             technologies={["Next.js", "TailwindCSS", "TypeScript"]}
             image="/images/landas.png"
-            liveLink="https://supercoder-project.vercel.app/"
+            liveLink="https://supercoder-project-nu.vercel.app/"
             codeLink="https://github.com/GODseye17/Supercoder-Project.git"
           />
           <ProjectCard
@@ -128,7 +128,7 @@ export default function Projects() {
             description="3D portfolio built with three.js"
             technologies={["Three.js", "React", "Vite"]}
             image="/images/3js.png"
-            liveLink="https://portfolio-3js-fawn.vercel.app/"
+            liveLink="https://portfolio-3js-one.vercel.app/"
             codeLink="https://github.com/GODseye17/Portfolio-3js.git"
           />
         </div>
